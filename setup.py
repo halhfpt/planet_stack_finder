@@ -24,7 +24,7 @@ setup(name='stackfinder',
           'click==4.1',
           'numpy>=1.9.2',
           'scikit-learn>=0.16.1',
-          'scipy>=0.16.0'
+          'scipy==0.16.0'
       ],
       extras_require={
           'test': ['pytest'],
