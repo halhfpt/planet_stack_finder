@@ -21,10 +21,10 @@ setup(name='stackfinder',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'click==4.1',
+          'click>=4.1',
           'numpy>=1.9.2',
           'scikit-learn>=0.16.1',
-          'scipy==0.16.0'
+          'scipy>=0.16.0'
       ],
       extras_require={
           'test': ['pytest'],
